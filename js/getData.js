@@ -1,5 +1,5 @@
 function getLttImage() {
-    fetch("data/data.json")
+    fetch("https://github.com/dr-21/trend/blob/main/data/data.json")
         .then((res) => res.json())
         .then((data) => {
             let image64 = data["img"];
